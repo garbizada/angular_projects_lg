@@ -8,6 +8,7 @@ import { NgForFirstComponent } from './ng-for-first/ng-for-first.component';
 import { NgContentFirstComponent } from './ng-content-first/ng-content-first.component';
 import { HighlightMouseDirective } from './shared/highlight-mouse.directive';
 import { DiretivasCustomizadasComponent } from './diretivas-customizadas/diretivas-customizadas.component';
+import { HighlightDirective } from './shared/highlight.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DiretivasCustomizadasComponent } from './diretivas-customizadas/diretiv
     NgForFirstComponent,
     NgContentFirstComponent,
     HighlightMouseDirective,
-    DiretivasCustomizadasComponent
+    DiretivasCustomizadasComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
