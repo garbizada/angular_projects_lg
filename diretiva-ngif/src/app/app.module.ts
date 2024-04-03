@@ -11,7 +11,8 @@ import { DiretivasCustomizadasComponent } from './diretivas-customizadas/diretiv
 import { HighlightDirective } from './shared/highlight.directive';
 import { CursosService } from './cursos/cursos.service';
 import { CriarCursoModule } from './criar-curso/criar-curso.module';
-import { CursosModule } from "./cursos/cursos.module"
+import { CursosModule } from "./cursos/cursos.module";
+
 
 @NgModule({
   declarations: [
